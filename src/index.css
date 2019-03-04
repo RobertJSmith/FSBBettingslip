@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.componentWrapper {
+  background-color: white;
+  padding: 5px;
+}
+
+.counterContainer {
+  display:inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #707377;
+  width: 100%;
+}
+
+.counterContainer > select {
+  background-color: #707377;
+  color: white;
+  flex: 3;
+  flex-basis: 80%;
+}
+
+.betslipCounter  {
+  background-color: orange;
+  color: white;
+  flex:1;
+  margin: 0;
+  flex-basis: 20%;
+}
+
+.favouritesList {
+  background-color: #707377;
+  color: white;
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.favouritesListItem {
+  display: flex;
+  color: black;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 5px;
+}
+
+.favouritesListItem > p {
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.favouritesListItem > button {
+  justify-content: flex-end;
+  min-width: 50px;
+  min-height: 50px;
+  background-color: white;
+  border: 1px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.itemSelected {
+  zoom: 1.5;
+  background-color: green;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+
+.multipleStakeContainer {
+  background-color: white;
+  color: darkgray;
+}
+
+.multipleStakeContainer > .stakeButton {
+  background-color: white;
+  color:#35a33e;
+  border-bottom: 1px solid #35a33e;
+}
