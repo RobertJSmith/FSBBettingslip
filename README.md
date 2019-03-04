@@ -1,14 +1,18 @@
 ## BettingSlip setup
 
 1.Make sure you have node.js installed, if not install it from https://nodejs.org/en/download/
+
 2.Open the command prompt and navigate to the fsbtest folder.
+
 3.Type npm run dev
+
 4.If it doesn't auto launch, please open a broswer tab and navigate to http://localhost:3000/
+
 5.To build the app for production, type npm run build into the command prompt pointed at fsbtest folder. A build folder will be generated with minified files. Presuming this project was built at the server root (otherwise add a homepage attribute to package.json) run the following commands to server: 
+    
     npm install -g serve
+    
     serve -s build
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
